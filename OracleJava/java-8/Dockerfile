@@ -2,7 +2,7 @@
 #
 # Copyright (c) 2015 Oracle and/or its affiliates. All rights reserved.
 #
-FROM oraclelinux:7-slim
+FROM registry.access.redhat.com/rhel7
 
 MAINTAINER Bruno Borges <bruno.borges@oracle.com>
 
