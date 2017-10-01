@@ -6,7 +6,7 @@ FROM registry.access.redhat.com/rhel7
 
 MAINTAINER Bruno Borges <bruno.borges@oracle.com>
 
-ENV JAVA_PKG=server-jre-8u*-linux-x64.tar.gz \
+ENV JAVA_PKG=server-jre-8u144-linux-x64.tar.gz \
     JAVA_HOME=/usr/java/default
 
 ADD $JAVA_PKG /usr/java/
